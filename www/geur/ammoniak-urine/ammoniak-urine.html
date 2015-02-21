@@ -1,0 +1,19 @@
+<ion-view view-title="Ammoniak/urine">
+    <ion-nav-buttons side="right">
+        <nav-buttons></nav-buttons>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <h4>{{ammoniakUrine.vraag}}</h4>
+        <p>
+            <a href="//aquacell-waterontharder.nl/cms/waterhardheid/waterhardheid-hardheid-van-hard-water.html" target="_blank">
+                Vind hier de hardheid van water in jouw woonplaats
+            </a>
+        </p>
+        <div class="list card">
+            <a ui-sref="{{optie.link}}" ng-repeat="optie in ammoniakUrine.opties" class="item item-icon-right">
+                <i class="icon ion-ios7-arrow-right"></i>
+                {{ optie.titel }}
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

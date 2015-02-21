@@ -1,0 +1,17 @@
+<ion-view view-title="Voorgewassen">
+    <ion-nav-buttons side="right">
+        <nav-buttons></nav-buttons>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <h4>{{ luiersVoorgewassen.vraag }}</h4>
+        <p>
+            De meeste luiers moet je twee tot drie keer voorwassen, net zoals nieuwe handdoeken. Na ongeveer tien keer wassen is de maximale absorptie bereikt. Lees de gebruiksaanwijzing van je luiers goed!
+        </p>
+        <div class="list card">
+            <a ui-sref="{{optie.link}}" ng-repeat="optie in luiersVoorgewassen.opties" class="item item-icon-right">
+                <i class="icon ion-ios7-arrow-right"></i>
+                {{ optie.titel }}
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

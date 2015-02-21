@@ -1,0 +1,40 @@
+<style>
+    span.tab{
+        padding: 0 40px; /* Or desired space*/
+    }
+</style>
+<ion-modal-view>
+    <ion-header-bar class="bar-positive">
+        <h1 class="title">Oplossing gevonden</h1>
+        <button class="button button-icon icon ion-android-close" ng-click="goedeOplossingModal.hide()"></button>
+    </ion-header-bar>
+    <ion-content class="padding">
+        <p>
+            <strong>We zijn blij je geholpen te hebben.</strong>
+        </p>
+        <br/>
+        <p>
+            Wil je op de hoogte blijven van de nieuwste producten? Geef je dan op voor onze Nieuwsbrief. We verzenden hem ongeveer 12 x per jaar.
+            Klik hieronder om je op te geven.
+        </p>
+        <p>
+            Groeten van het Kaatje Katoen team.
+        </p>
+        <div class="list inset-list">
+            <a class="item item-icon-left" href="//kaatjekatoen.nl">
+                <img src="img/logo.jpg" class="icon icon-earth">
+                <span class="tab">www.kaatjekatoen.nl</span>
+            </a>
+            <a class="item item-icon-left" href="//facebook.com/kaatjekatoen">
+                <i class="icon ion-social-facebook" style="color: royalblue"></i>
+                <span class="tab">Facebookpagina</span>
+            </a>
+            <a class="item item-icon-left" href="//kaatjekatoen.nl/nieuwsbrief_aanmelding">
+                <i class="icon ion-ios7-paper"></i>
+                <span class="tab">Nieuwsbrief</span>
+            </a>
+        </div>
+        <p>
+        <link-button ui-sref="home" ng-click="goedeOplossingModal.hide()" type="'stable'">Terug naar het beginscherm</link-button>
+    </ion-content>
+</ion-modal-view>

@@ -1,0 +1,28 @@
+<ion-modal-view>
+    <ion-header-bar class="bar-positive">
+        <h1 class="title">Geen oplossing gevonden</h1>
+        <button class="button button-icon icon ion-android-close" ng-click="geenGoedeOplossingModal.hide()"></button>
+    </ion-header-bar>
+    <ion-content class="padding">
+        <p>
+            Nog geen oplossing gevonden? Neem contact op met je luierleverancier. Heb je bij ons je aankoop gedaan, neem dan contact met ons op.
+            <!--<a href="mailto:bestellingen@kaatjekatoen.nl"><i class="icon ion-mail"></i>bestellingen@kaatjekatoen.nl</a> of bel-->
+            <!--<a href="tel:+317310183"><i class="icon ion-ios-telephone">0317-310183</i></a> (ma, di, do, vr).-->
+        </p>
+        <div class="list inset-list">
+            <div class="item item-divider">
+                Kaatje Katoen
+            </div>
+            <a class="item item-icon-left" href="mailto:bestellingen@kaatjekatoen.nl">
+                <i class="icon ion-ios7-email"></i>
+                bestellingen@kaatjekatoen.nl
+            </a>
+            <a class="item item-icon-left" href="tel:+317310183">
+                <i class="icon ion-ios7-telephone"></i>
+                0317-310183 (ma, di, do, vr)
+            </a>
+        </div>
+        <br/>
+        <link-button ui-sref="home" ng-click="geenGoedeOplossingModal.hide()" type="'stable'">Terug naar het beginscherm</link-button>
+    </ion-content>
+</ion-modal-view>

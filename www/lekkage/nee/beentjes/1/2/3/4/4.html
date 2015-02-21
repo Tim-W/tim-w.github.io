@@ -1,0 +1,15 @@
+<ion-view view-title="Strak genoeg">
+    <ion-nav-buttons side="right">
+        <nav-buttons></nav-buttons>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <h4>{{ strakGenoeg.vraag }}</h4>
+        <p>Je mag geen vinger tussen been/buik luier kunnen steken.</p>
+        <div class="list card">
+            <a ui-sref="{{optie.link}}" ng-repeat="optie in strakGenoeg.opties" class="item item-icon-right">
+                <i class="icon ion-ios7-arrow-right"></i>
+                {{ optie.titel }}
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
