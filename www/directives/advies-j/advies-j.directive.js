@@ -6,10 +6,10 @@
 
     angular
         .module('kaatjeHelpt.directives')
-        .directive('adviesH',  function () {
+        .directive('adviesJ',  function () {
             return {
                 restrict: 'E',
-                templateUrl: 'directives/advies-h/advies-j.html'
+                templateUrl: 'directives/advies-j/advies-j.html'
             }
         });
 })();

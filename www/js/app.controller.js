@@ -123,7 +123,6 @@
         };
 
 
-
         $scope.lekkenLuiersSnachts = {
             vraag: "Lekken de luiers 's nachts?",
             opties: [
@@ -170,12 +169,127 @@
             vraag: 'Hoe oud is je kind?',
             opties: [{
                 titel: 'Jonger dan 6 maanden',
-                link: 'jonger'
+                link: 'advies-dgh'
             },
                 {
                     titel: 'Ouder dan 6 maanden',
-                    link: 'lekkage-nee-jonger'
+                    link: 'advies-dgi'
                 }]
+        };
+
+        $scope.typeLuier = {
+            vraag: 'Wat voor type luier gebruik je?',
+            opties: [
+                {
+                    titel: 'Voorgevormd met overbroekje',
+                    link: 'luiers-overbroekjes'
+                },
+                {
+                    titel: 'Alles-in-één',
+                    link: 'luiers-overbroekjes'
+                },
+                {
+                    titel: 'Pocketluier',
+                    link: 'luiers-overbroekjes'
+                },
+                {
+                    titel: 'Prefold met overbroekje',
+                    link: 'flap-overbroekje'
+                }]
+        };
+
+        $scope.flapOverbroekje ={
+            vraag: 'Stop je de luier onder de flap van het overbroekje?',
+            opties: [
+                {
+                    titel: 'Nee',
+                    link: 'luiers-overbroekjes'
+                },
+                {
+                    titel: 'Ja',
+                    link: 'flap-overbroekje-ja'
+                }
+            ]
+        };
+
+        $scope.luiersOverbroekjes ={
+            vraag: 'Test je luiers/overbroekjes',
+            opties: [
+                {
+                    titel: 'Verder',
+                    link: 'luiers-overbroekjes-1'
+                }
+            ]
+        };
+
+        $scope.luiersOverbroekjes2 ={
+            vraag: 'Merkte je bij het testen dat de buitenkant van de luiers/overbroekjes vochtig werd?',
+            opties: [
+                {
+                    titel: 'Nee',
+                    link: 'luiers-overbroekjes-nee'
+                },
+                {
+                    titel: 'Ja',
+                    link: 'luiers-overbroekjes-ja'
+                }
+            ]
+        };
+
+        $scope.vlekken = {
+            vraag: 'Als de luiers schoon zijn, ruik je dan iets anders naast het waspoeder?',
+            opties: [
+                {
+                    titel: 'Nee',
+                    link: 'vlekken-nee'
+                },
+                {
+                    titel: 'Ja',
+                    link: 'geur'
+                }
+            ]
+        };
+
+        $scope.stipjesLuiers = {
+            vraag: 'Zie je zwarte, rode of groene stipjes op de luiers?',
+            opties: [
+                {
+                    titel: 'Nee',
+                    link: 'vlekken-nee-nee'
+                },
+                {
+                    titel: 'Ja',
+                    link: 'vlekken-nee-ja'
+                }
+            ]
+        };
+
+        $scope.uitslag = {
+            vraag: 'Als de luiers schoon zijn, ruik je dan iets anders naast het waspoeder?',
+            opties: [
+                {
+                    titel: 'Nee',
+                    link: 'uitslag-nee'
+                },
+                {
+                    titel: 'Ja',
+                    link: 'geur'
+                }
+            ]
+        };
+
+        $scope.huidKind = {
+            vraag: 'Hoe ziet de huid van je kind eruit? Rode plekken met bultjes eromheen? Zie je het vooral in de huidplooien?',
+            opties: [
+                {
+                    titel: 'Nee',
+                    link: 'uitslag-nee-nee'
+                },
+                {
+                    titel: 'Ja',
+                    link: 'uitslag-nee-ja'
+                }
+            ]
         };
 
         $scope.keuzeschermTekst = 'Wat voor probleem heb je?';
@@ -183,33 +297,33 @@
         $ionicModal.fromTemplateUrl('directives/modals/hard-water-extra-info.html', {
             scope: $scope,
             animation: 'slide-in-up'
-        }).then(function(modal) {
+        }).then(function (modal) {
             $scope.hardWaterModal = modal;
         });
 
-        $scope.openModal = function() {
+        $scope.openModal = function () {
             $scope.hardWaterModal.show();
         };
 
         $ionicModal.fromTemplateUrl('directives/modals/goede-oplossing.html', {
             scope: $scope,
             animation: 'slide-in-up'
-        }).then(function(modal) {
+        }).then(function (modal) {
             $scope.goedeOplossingModal = modal;
         });
 
-        $scope.goedeOplossingGevonden = function() {
+        $scope.goedeOplossingGevonden = function () {
             $scope.goedeOplossingModal.show();
         };
 
         $ionicModal.fromTemplateUrl('directives/modals/geen-goede-oplossing.html', {
             scope: $scope,
             animation: 'slide-in-up'
-        }).then(function(modal) {
+        }).then(function (modal) {
             $scope.geenGoedeOplossingModal = modal;
         });
 
-        $scope.geenGoedeOplossingGevonden = function() {
+        $scope.geenGoedeOplossingGevonden = function () {
             $scope.geenGoedeOplossingModal.show();
         };
     }

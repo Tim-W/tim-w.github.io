@@ -1,0 +1,14 @@
+<ion-view view-title="Geen geur">
+    <ion-nav-buttons side="right">
+        <nav-buttons></nav-buttons>
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <h4>{{ huidKind.vraag }}</h4>
+        <div class="list card">
+            <a ng-repeat="optie in huidKind.opties" ui-sref="{{optie.link}}" class="item item-icon-right">
+                <i class="icon ion-ios7-arrow-right"></i>
+                {{ optie.titel }}
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

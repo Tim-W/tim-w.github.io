@@ -62,7 +62,7 @@
                 })
                 .state('lekkage-nee', {
                     url: '/lekkage/nee',
-                    templateUrl: 'lekkage/nee/waar-lekt-het.html'
+                    templateUrl: 'lekkage/nee/stof.html'
                 })
                 .state('lekkage-nee-beentjes', {
                     url: '/lekkage/nee/beentjes',
@@ -84,20 +84,81 @@
                     url: '/lekkage/nee/beentjes/4',
                     templateUrl: 'lekkage/nee/beentjes/1/2/3/4/4.html'
                 })
-                .state('advies-efc', {
-                    url: '/lekkage/nee/beentjes/4/advies-efc',
-                    templateUrl: 'lekkage/nee/beentjes/1/2/3/4/ja/advies-efc.html'
-                })
                 .state('lekkage-nee-beentjes-4-nee', {
                     url: '/lekkage/nee/beentjes/4/leeftijd',
                     templateUrl: 'lekkage/nee/beentjes/1/2/3/4/nee/leeftijd.html'
                 })
+                .state('lekkage-nee-stof', {
+                    url: '/lekkage/nee/type-luier',
+                    templateUrl: 'lekkage/nee/stof/type-luier.html'
+                })
+                .state('flap-overbroekje', {
+                    url: '/lekkage/nee/stof/flap-overbroekje',
+                    templateUrl: 'lekkage/nee/stof/flap-overbroekje/flap-overbroekje.html'
+                })
+                .state('luiers-overbroekjes', {
+                    url: '/lekkage/nee/stof/luiers-overbroekjes',
+                    templateUrl: 'lekkage/nee/stof/luiers-overbroekjes/luiers-overbroekjes.html'
+                })
+                .state('luiers-overbroekjes-1', {
+                    url: '/lekkage/nee/stof/luiers-overbroekjes-1',
+                    templateUrl: 'lekkage/nee/stof/luiers-overbroekjes/1/1.html'
+                })
+                .state('luiers-overbroekjes-2', {
+                    url: '/lekkage/nee/stof/luiers-overbroekjes-2',
+                    templateUrl: 'lekkage/nee/stof/luiers-overbroekjes/1/2/2.html'
+                })
+                .state('luiers-overbroekjes-ja', {
+                    url: '/lekkage/nee/stof/luiers-overbroekjes-ja',
+                    templateUrl: 'lekkage/nee/stof/luiers-overbroekjes/1/2/ja/ja.html'
+                })
+                .state('luiers-overbroekjes-nee', {
+                    url: '/lekkage/nee/stof/luiers-overbroekjes-nee',
+                    templateUrl: 'lekkage/nee/stof/luiers-overbroekjes/1/2/nee/nee.html'
+                })
+                .state('luiers-overbroekjes-nee-1', {
+                    url: '/lekkage/nee/stof/luiers-overbroekjes-nee-1',
+                    templateUrl: 'lekkage/nee/stof/luiers-overbroekjes/1/2/nee/1/1.html'
+                })
+                .state('flap-overbroekje-ja', {
+                    url: '/lekkage/nee/stof/flap-overbroekje/ja',
+                    templateUrl: 'lekkage/nee/stof/flap-overbroekje/ja/ja.html'
+                })
 
 
+                .state('vlekken', {
+                    url: '/vlekken',
+                    templateUrl: 'vlekken/vlekken.html'
+                })
+                .state('vlekken-nee', {
+                    url: '/vlekken/nee',
+                    templateUrl: 'vlekken/nee/nee.html'
+                })
+                .state('vlekken-nee-nee', {
+                    url: '/vlekken/nee/ja',
+                    templateUrl: 'vlekken/nee/nee/nee.html'
+                })
+                .state('vlekken-nee-ja', {
+                    url: '/vlekken/nee/ja',
+                    templateUrl: 'vlekken/nee/ja/ja.html'
+                })
 
-
-
-
+                .state('uitslag', {
+                    url: '/uitslag',
+                    templateUrl: 'uitslag/uitslag.html'
+                })
+                .state('uitslag-nee', {
+                    url: '/uitslag/nee',
+                    templateUrl: 'uitslag/nee/nee.html'
+                })
+                .state('uitslag-nee-nee', {
+                    url: '/uitslag/nee/ja',
+                    templateUrl: 'uitslag/nee/nee/nee.html'
+                })
+                .state('uitslag-nee-ja', {
+                    url: '/uitslag/nee/ja',
+                    templateUrl: 'uitslag/nee/ja/ja.html'
+                })
 
 
                 .state('eindscherm-a', {
@@ -124,10 +185,29 @@
                     templateUrl: 'directives/eindschermen/ons-advies-g.html'
                 }).state('eindscherm-h', {
                     url: '/eindscherm-h',
-                    templateUrl: 'directives/eindschermen/ons-advies-h.html'
+                    templateUrl: 'directives/eindschermen/ons-advies-j.html'
                 }).state('eindscherm-m', {
                     url: '/eindscherm-m',
                     templateUrl: 'directives/eindschermen/ons-advies-m.html'
+                })
+
+
+
+                .state('advies-dgh', {
+                    url: '/advies-efc',
+                    templateUrl: 'directives/advies-dgh.html'
+                })
+                .state('advies-efc', {
+                    url: '/advies-efc',
+                    templateUrl: 'directives/advies-efc.html'
+                })
+                .state('advies-dgi', {
+                    url: '/advies-efc',
+                    templateUrl: 'directives/advies-dgi.html'
+                })
+                .state('advies-pc', {
+                    url: '/advies-pc',
+                    templateUrl: 'directives/advies-pc.html'
                 });
 
 
