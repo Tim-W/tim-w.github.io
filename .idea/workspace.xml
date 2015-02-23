@@ -2,56 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9beec31-393b-4211-893a-f305bee7bbea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/resource/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/1/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/1/2/nee/1/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/1/2/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-dgh.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-dgi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-efc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-i/advies-i.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-i/advies-i.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-j/advies-j.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-j/advies-j.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-k/advies-k.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-k/advies-k.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-l/advies-l.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-l/advies-l.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-o/advies-o.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-o/advies-o.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-p/advies-p.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-p/advies-p.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/directives/advies-pc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/flap-overbroekje/ja/ja.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/1/2/ja/ja.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/uitslag/nee/ja/ja.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/vlekken/nee/ja/ja.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/luiers-overbroekjes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/1/2/nee/nee.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/uitslag/nee/nee.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/uitslag/nee/nee/nee.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/vlekken/nee/nee.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/vlekken/nee/nee/nee.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/type-luier.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/uitslag/uitslag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/vlekken/vlekken.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lekkage/nee/beentjes/1/2/3/4/ja/advies-efc.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lekkage/nee/beentjes/1/2/3/4/nee/jonger/jonger.html" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof/flap-overbroekje/flap-overbroekje.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lekkage/nee/waar-lekt-het.html" afterPath="$PROJECT_DIR$/www/lekkage/nee/stof.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-b/advies-b.html" afterPath="$PROJECT_DIR$/www/directives/advies-b/advies-b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-c/advies-c.html" afterPath="$PROJECT_DIR$/www/directives/advies-c/advies-c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-d/advies-d.html" afterPath="$PROJECT_DIR$/www/directives/advies-d/advies-d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-e/advies-e.html" afterPath="$PROJECT_DIR$/www/directives/advies-e/advies-e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-f/advies-f.html" afterPath="$PROJECT_DIR$/www/directives/advies-f/advies-f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-g/advies-g.html" afterPath="$PROJECT_DIR$/www/directives/advies-g/advies-g.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-h/advies-h.directive.js" afterPath="$PROJECT_DIR$/www/directives/advies-h/advies-h.directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-h/advies-h.html" afterPath="$PROJECT_DIR$/www/directives/advies-h/advies-h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/directives/advies-m/advies-m.html" afterPath="$PROJECT_DIR$/www/directives/advies-m/advies-m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.config.js" afterPath="$PROJECT_DIR$/www/js/app.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.controller.js" afterPath="$PROJECT_DIR$/www/js/app.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kaatje-katoen-app.iml" afterPath="$PROJECT_DIR$/.idea/kaatje-katoen-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/geur/wasmiddel/wasmiddel.html" afterPath="$PROJECT_DIR$/www/geur/wasmiddel/wasmiddel.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/logo.jpg" afterPath="$PROJECT_DIR$/www/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kaatje-katoen-app.iws" />
@@ -98,7 +50,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ionic.png" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ionic.png" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/img/ionic.png">
               <provider selected="true" editor-type-id="images">
                 <state />
@@ -158,20 +110,17 @@
           <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-                  <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+                <state vertical-scroll-proportion="-11.571428" vertical-offset="0" max-vertical-offset="450">
+                  <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="advies-a.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/directives/advies-a/advies-a.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="576">
-                  <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-                  <folding />
-                </state>
+          <file leaf-file-name="logo.png" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/www/img/logo.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
               </provider>
             </entry>
           </file>
@@ -200,7 +149,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/www/directives/ons-advies-m.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/lekkage/nee/beentjes/1/2/3/4/ja/advies-efc.html" />
         <option value="$PROJECT_DIR$/www/lekkage/nee/beentjes/1/2/3/4/nee/jonger/jonger.html" />
         <option value="$PROJECT_DIR$/www/lekkage/nee/beentjes/1/2/3/4/nee/jonger/advies-dgh.html" />
@@ -250,6 +198,7 @@
         <option value="$PROJECT_DIR$/www/directives/advies-m/advies-m.html" />
         <option value="$PROJECT_DIR$/www/geur/wasmiddel/wasmiddel.html" />
         <option value="$PROJECT_DIR$/www/directives/advies-b/advies-b.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -320,6 +269,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaatje-katoen-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaatje-katoen-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,7 +382,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2142152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2142152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32379073" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39810428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -427,7 +394,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="561" y="46" width="244" height="701" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="561" y="46" width="244" height="701" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="99" y="124" width="1168" height="545" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -459,22 +426,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/lekkage/lekkage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="342">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/luiers-overbroekjes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="360">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/lekkage/nee/stof/luiers-overbroekjes/1/2/nee/nee.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3219076" vertical-offset="0" max-vertical-offset="671">
@@ -848,15 +799,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="756">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state vertical-scroll-proportion="-11.571428" vertical-offset="0" max-vertical-offset="450">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/img/ionic.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
