@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.kaatjekatoen.kaatjehelpt" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.kaatjekatoen.kaatjehelpt" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>kaatje-helpt</name>
     <icon src="img/logo.png" />
     <description>
         Kaatje Helpt, een service van Kaatje Katoen.
     </description>
-    <author email="twtimwissel5@gmail.com" href="//tim-w.net">
-        Tim Wissel
+    <author email="info@kaatjekatoen.nl" href="//kaatjekatoen.nl">
+        Kaatje Katoen
     </author>
     <content src="index.html"/>
     <access origin="*"/>
