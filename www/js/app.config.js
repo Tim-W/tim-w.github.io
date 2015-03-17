@@ -185,10 +185,16 @@
                     templateUrl: 'directives/eindschermen/ons-advies-g.html'
                 }).state('eindscherm-h', {
                     url: '/eindscherm-h',
-                    templateUrl: 'directives/eindschermen/ons-advies-j.html'
+                    templateUrl: 'directives/eindschermen/ons-advies-h.html'
                 }).state('eindscherm-m', {
                     url: '/eindscherm-m',
                     templateUrl: 'directives/eindschermen/ons-advies-m.html'
+                }).state('eindscherm-p', {
+                    url: '/eindscherm-p',
+                    templateUrl: 'directives/eindschermen/ons-advies-p.html'
+                }).state('eindscherm-o', {
+                    url: '/eindscherm-o',
+                    templateUrl: 'directives/eindschermen/ons-advies-o.html'
                 })
 
 
